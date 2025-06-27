@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>УчИлегко — Учись вместе с нами</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #27ae60;
+    }
+    .hero {
+      padding: 40px;
+      text-align: center;
+      background: #ecf0f1;
+    }
+    .hero h2 {
+      margin-bottom: 20px;
+    }
+    .subjects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .subject-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .subject-card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .donate-btn {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .donate-btn:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>УчИлегко</h1>
+    <p>Учись вместе с нами — от 1 до 11 класса!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="about.html">О проекте</a>
+    <a href="grades1-4.html">1–4 классы</a>
+    <a href="grades5-9.html">5–9 классы</a>
+    <a href="grades10-11.html">10–11 классы</a>
+    <a href="contact.html">Контакты</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Добро пожаловать на «УчИлегко»!</h2>
+    <p>Полезные и понятные материалы для школьников всех классов.<br>
+    Учёба может быть лёгкой и интересной — мы это докажем!</p>
+  </section>
+
+  <section class="subjects">
+    <a href="grades1-4.html" class="subject-card">
+      <strong>1–4 классы</strong><br>Начальная школа
+    </a>
+    <a href="grades5-9.html" class="subject-card">
+      <strong>5–9 классы</strong><br>Основное обучение
+    </a>
+    <a href="grades10-11.html" class="subject-card">
+      <strong>10–11 классы</strong><br>Подготовка к экзаменам
+    </a>
+  </section>
+
+  <section class="hero">
+    <h2>Остались вопросы?</h2>
+    <p>Напишите нам — мы всегда поможем!</p>
+    <a href="contact.html" class="donate-btn">Связаться с нами</a>
+  </section>
+
+  <footer>
+    <p>© 2025 УчИлегко. Учись вместе с нами</p>
+    <a class="donate-btn" href="https://payeer.com/pay/?shop=P1132387242" target="_blank">Поддержать проект</a>
+  </footer>
+
+</body>
+</html>

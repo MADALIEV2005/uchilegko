@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Геометрия: фигуры и тела — Математика 5–9 классы — УчИлегко</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #27ae60;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 25px 30px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+    h3 {
+      color: #27ae60;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    svg.figure {
+      display: block;
+      margin: 15px auto 30px auto;
+      max-width: 300px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #ecf0f1;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .tip {
+      background-color: #dff0d8;
+      padding: 15px;
+      border-radius: 8px;
+      font-style: italic;
+      font-size: 18px;
+      color: #3c763d;
+      margin-bottom: 30px;
+      border: 1px solid #3c763d;
+    }
+    .back-link {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    .back-link a {
+      background-color: #ecf0f1;
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    }
+    .back-link a:hover {
+      background-color: #27ae60;
+      color: white;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>УчИлегко</h1>
+  <p>Учись вместе с нами — от 1 до 11 класса!</p>
+</header>
+
+<nav>
+  <a href="index.html">Главная</a>
+  <a href="grades5-9.html">5–9 классы</a>
+  <a href="math-5-9.html">Математика</a>
+  <a href="contact.html">Контакты</a>
+</nav>
+
+<div class="container">
+  <h2>Геометрия: фигуры и тела</h2>
+
+  <p><strong>Геометрия</strong> изучает формы и размеры объектов, а также их расположение в пространстве.</p>
+
+  <h3>1. Плоские фигуры (двумерные)</h3>
+  <p>Это фигуры, которые имеют длину и ширину, но не имеют толщины. Основные плоские фигуры:</p>
+  <ul>
+    <li><strong>Круг</strong> — все точки находятся на равном расстоянии от центра.</li>
+    <li><strong>Треугольник</strong> — фигура с тремя сторонами и тремя углами.</li>
+    <li><strong>Квадрат</strong> — четырёхугольник с равными сторонами и углами по 90°.</li>
+    <li><strong>Прямоугольник</strong> — четырёхугольник с углами 90°, стороны противоположны равны.</li>
+    <li><strong>Многоугольник</strong> — фигура с тремя и более сторонами.</li>
+  </ul>
+
+  <!-- SVG плоских фигур -->
+  <svg class="figure" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" aria-label="Плоские геометрические фигуры">
+    <!-- Круг -->
+    <circle cx="50" cy="90" r="40" fill="#27ae60" stroke="#1e8449" stroke-width="3"/>
+    <text x="50" y="90" text-anchor="middle" fill="white" font-size="16" dy=".3em">Круг</text>
+
+    <!-- Треугольник -->
+    <polygon points="120,140 160,40 200,140" fill="#2980b9" stroke="#1c5980" stroke-width="3"/>
+    <text x="160" y="150" text-anchor="middle" fill="white" font-size="16">Треугольник</text>
+
+    <!-- Квадрат -->
+    <rect x="220" y="50" width="60" height="60" fill="#e67e22" stroke="#b3590c" stroke-width="3"/>
+    <text x="250" y="125" text-anchor="middle" fill="white" font-size="16">Квадрат</text>
+  </svg>
+
+  <h3>2. Геометрические тела (трёхмерные объекты)</h3>
+  <p>Это объекты, которые имеют длину, ширину и высоту. Основные геометрические тела:</p>
+  <ul>
+    <li><strong>Куб</strong> — тело с 6 равными квадратными гранями.</li>
+    <li><strong>Параллелепипед</strong> — тело с 6 гранями, противоположные грани параллельны и равны.</li>
+    <li><strong>Шар</strong> — все точки поверхности равны удалены от центра.</li>
+    <li><strong>Цилиндр</strong> — тело с двумя круглыми основаниями и боковой поверхностью.</li>
+    <li><strong>Конус</strong> — тело с круглым основанием и одной вершиной.</li>
+  </ul>
+
+  <!-- SVG геометрических тел -->
+  <svg class="figure" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" aria-label="Геометрические тела">
+    <!-- Куб -->
+    <rect x="30" y="80" width="60" height="60" fill="#e74c3c" stroke="#a83224" stroke-width="3"/>
+    <polygon points="30,80 60,50 120,50 90,80" fill="#c0392b" stroke="#a83224" stroke-width="3"/>
+    <polygon points="120,50 120,110 90,140 90,80" fill="#d35400" stroke="#a83224" stroke-width="3"/>
+    <text x="60" y="160" text-anchor="middle" fill="#333" font-size="16">Куб</text>
+
+    <!-- Шар -->
+    <circle cx="230" cy="110" r="40" fill="#3498db" stroke="#21618c" stroke-width="3"/>
+    <text x="230" y="110" text-anchor="middle" fill="white" font-size="16" dy=".3em">Шар</text>
+  </svg>
+
+  <h3>3. Основные характеристики фигур и тел</h3>
+  <ul>
+    <li><strong>Периметр</strong> — сумма длин всех сторон плоской фигуры.</li>
+    <li><strong>Площадь</strong> — площадь поверхности плоской фигуры.</li>
+    <li><strong>Объём</strong> — количество пространства, занимаемого геометрическим телом.</li>
+    <li><strong>Площадь поверхности</strong> — сумма площадей всех граней тела.</li>
+  </ul>
+
+  <h3>4. Применение геометрии</h3>
+  <p>Геометрия важна в архитектуре, инженерии, дизайне, физике и многих других областях, где важны формы и размеры.</p>
+
+  <div class="tip">
+    Совет: Рисуйте фигуры и тела, чтобы лучше понять их свойства и легче запомнить формулы.
+  </div>
+
+  <div class="back-link">
+    <a href="math-5-9.html">← Вернуться к разделу Математика 5–9</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 УчИлегко. Учись вместе с нами</p>
+</footer>
+
+</body>
+</html>
+
