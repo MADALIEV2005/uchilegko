@@ -11,34 +11,56 @@
       background-color: #f4f4f4;
       color: #333;
     }
+
     header {
       background-color: #2c3e50;
       color: white;
       padding: 20px;
       text-align: center;
+      position: relative;
     }
+
+    .register-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #27ae60;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .register-btn:hover {
+      background-color: #219150;
+    }
+
     nav {
       background-color: #34495e;
       padding: 10px;
       text-align: center;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
+      transition: color 0.3s ease;
     }
+
     nav a:hover {
       color: #27ae60;
     }
+
     .hero {
       padding: 40px;
       text-align: center;
       background: #ecf0f1;
     }
-    .hero h2 {
-      margin-bottom: 20px;
-    }
+
     .subjects {
       display: flex;
       flex-wrap: wrap;
@@ -46,6 +68,7 @@
       gap: 20px;
       padding: 20px;
     }
+
     .subject-card {
       background-color: white;
       border-radius: 10px;
@@ -55,16 +78,11 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
+
     .subject-card:hover {
       transform: scale(1.05);
     }
-    footer {
-      background-color: black;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
+
     .donate-btn {
       background-color: #27ae60;
       color: white;
@@ -75,8 +93,17 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .donate-btn:hover {
       background-color: #219150;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -85,6 +112,7 @@
   <header>
     <h1>УчИлегко</h1>
     <p>Учись вместе с нами — от 1 до 11 класса!</p>
+    <a href="register.html" class="register-btn">Регистрация</a>
   </header>
 
   <nav>
